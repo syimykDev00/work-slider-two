@@ -28,4 +28,10 @@ a {
 img {
     width: 400px;
     height: 500px;
+    filter: grayscale(0);
+    transition: .4s;
+}
+
+img:hover {
+    filter: grayscale(100);
 }
